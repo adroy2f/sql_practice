@@ -1,0 +1,3 @@
+ALTER TABLE employee
+    ADD COLUMN emp_city VARCHAR(30) NOT NULL,
+    ADD COLUMN emp_state VARCHAR(30) NOT NULL;
